@@ -1,0 +1,28 @@
+
+#imgClockWrapper {
+  width: 40%;
+  margin: 0 auto;
+  /*background-color: blue;*/
+}
+#imgClock {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  /*background-color: yellow;*/
+}
+.timeBox {
+  /*background-image: url(clock.png);*/
+  background-color: pink;
+  width: 30%;
+  height: 80px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+.clock, .hexClock{
+font-size: 3em;  
+text-align: center;
+padding-top: 20px;
+}
+
