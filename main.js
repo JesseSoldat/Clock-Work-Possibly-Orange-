@@ -31,6 +31,9 @@ function hexColor(){
   var hexHours = hexTime.getHours();
   var hexMinutes = hexTime.getMinutes();
   var hexSeconds = hexTime.getSeconds();
+  if (hexHours < 10) {
+    hexHours = '0'+hexHours;
+  }
 
   if (hexMinutes < 10) {
     hexMinutes = '0'+hexMinutes;

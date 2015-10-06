@@ -13,8 +13,8 @@
 .timeBox {
   /*background-image: url(clock.png);*/
   background-color: pink;
-  width: 30%;
-  height: 80px;
+  width: 25%;
+  height: 70px;
   margin: 0 auto;
   margin-bottom: 40px;
   border-radius: 5px;
@@ -23,6 +23,6 @@
 .clock, .hexClock{
 font-size: 3em;  
 text-align: center;
-padding-top: 20px;
+padding-top: 10px;
 }
 
